@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.2.8">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1145" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="2v1U455GpPaL7VQIRWQP-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-0" target="2v1U455GpPaL7VQIRWQP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-0" value="&lt;font&gt;INICIO&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="20" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-1" target="2v1U455GpPaL7VQIRWQP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-1" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;Lectura de constantes y datos:&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;R, Tc, Pc, w, T, etc.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-Puntos de presión (P en MPa) y volumen (V).&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="275.63" y="130" width="258.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-2" target="2v1U455GpPaL7VQIRWQP-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-2" value="&lt;div style=&quot;&quot;&gt;&lt;u&gt;Conversión de unidades:&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;&quot;&gt;- Pasa de MPa a Pa.&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Calcula volumen de m³/kg a m³/mol.&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="130" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-3" value="FIN" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="375" y="770" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-6" target="2v1U455GpPaL7VQIRWQP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-6" value="Crear spline cúbico con (P, V).&lt;div&gt;Utiliza condiciones &quot;natural&quot;.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="620" y="230" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-7" target="2v1U455GpPaL7VQIRWQP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-7" value="&lt;u&gt;Calcular parámetros de Peng-Robinson:&lt;/u&gt;&lt;div&gt;- α, a, b, etc. en función de T, Tc, Pc, w.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="287.5" y="225" width="235" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-8" target="2v1U455GpPaL7VQIRWQP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-8" value="Definir función PR_eq(V, P) = 0 para la ecuación de Peng-Robinson." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="302.25" y="350" width="205.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-12" target="2v1U455GpPaL7VQIRWQP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-12" value="Inicializar estructura de resultados, p.ej. listas o DataFrame vacío para volúmenes y errores." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="623.25" y="350" width="201" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-14" target="2v1U455GpPaL7VQIRWQP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-14" target="2v1U455GpPaL7VQIRWQP-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-14" value="¿Quedan valores de&amp;nbsp;&lt;div&gt;presión (P) por procesar?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="643.75" y="480" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-18" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;u style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Para cada P en la lista:&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Obtener V_init = spline(P).&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Resolver PR_eq(V, P) usando fsolve con V_init.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Calcular error = |V_PR - V_spline|.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Almacenar resultados en DataFrame/listas.&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="908.75" y="510" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-23" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="833.75" y="538" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-18" target="2v1U455GpPaL7VQIRWQP-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1056.74" y="690" as="sourcePoint" />
+            <mxPoint x="728.75" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1063.75" y="690" />
+              <mxPoint x="723.75" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-27" target="2v1U455GpPaL7VQIRWQP-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-27" value="&lt;u&gt;Calcular estadísticas de error:&lt;/u&gt;&lt;div&gt;- Máximo, promedio, etc.&lt;/div&gt;&lt;div&gt;- Completar DataFrame con V_spline, V_PR y error.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="530" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-29" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="588.75" y="538" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2v1U455GpPaL7VQIRWQP-30" target="2v1U455GpPaL7VQIRWQP-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-30" value="&lt;u&gt;Presentar resultados:&lt;/u&gt;&lt;div&gt;- Mostrar DataFrame en pantalla.&lt;/div&gt;&lt;div&gt;- Graficar spline vs. Peng-Robinson.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="305.5" y="650" width="229" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2v1U455GpPaL7VQIRWQP-50" value="Repetir mientras haya P" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="824.25" y="690" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
